@@ -1,0 +1,5 @@
+---
+'@gameastic/crypto': patch
+---
+
+Tests
