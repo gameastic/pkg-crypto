@@ -1,0 +1,34 @@
+{
+    "name": "@gameastic/crypto",
+    "version": "1.0.0",
+    "license": "MIT",
+    "source": "src/index.ts",
+    "main": "dist/index.js",
+    "author": "https://github.com/gameastic",
+    "description": "Simple encrypt/decrypt functionality",
+    "private": false,
+    "files": [
+        "dist/**/*"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:gameastic/crypto.git"
+    },
+    "bugs": {
+        "url": "https://github.com/gameastic/crypto/issues"
+    },
+    "keywords": [
+        "crypto",
+        "encrypt",
+        "decrypt"
+    ],
+    "homepage": "https://github.com/gameastic/crypto#readme",
+    "scripts": {
+        "clean": "rimraf dist && rimraf tsconfig.tsbuildinfo",
+        "test": "jest --config jestconfig.json",
+        "lint": "eslint 'src/**/*.{js,ts,ts}'",
+        "build": "npm run clean && tsc --build"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+}
